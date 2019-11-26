@@ -1,5 +1,10 @@
-# devconf-2019-authz
+# Original: devconf-2019-authz
 Keycloak/Authorization SpringBoot example for devconf 2019
+
+### Fine grained Authz in Keycloak
+See this link for slides: https://static.sched.com/hosted_files/devconfcz2019/80/2019_Fine-Grained-Authorization-with-Keycloak-SSO.pdf
+
+See this link for video presentation from Marek: https://www.youtube.com/watch?v=yosg4St0iUw
 
 # How to have it running
 
