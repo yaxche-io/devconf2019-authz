@@ -12,7 +12,6 @@
 
     <artifactId>devconf2019-service</artifactId>
 
-    <id>devconf2019-service</id>
 
     <properties>
         <springboot-version>2.0.3.RELEASE</springboot-version>
@@ -64,6 +63,7 @@
         </dependency>
     </dependencies>
     <build>
+        <finalName>devconf2019-service</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
