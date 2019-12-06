@@ -22,6 +22,8 @@ cd $KEYCLOAK_HOME/bin
 ```    
 
 4) Run CarsServiceApp and CarsApp from IDE (TODO: Need to describe how to run from mvn with the springboot plugin)
+   Note: For the CarsServiceApp copy the images/ directory into the src/main/resource/images  so that they are on the classpath, and the change the location in the ImgUtil.java to 
+   just "images/".  This will solve the "file not found" exception when trying to read the car images.
 
 5) Go to http://localhost:8080/app and login as alice/alice or other user (See cars-realm.json for the users/passwords).
 
